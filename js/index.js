@@ -8,7 +8,7 @@ var sum1=0, sum2=1; // 0 and 1
             sum1=sum2;
             sum2=result;
         }
-    }else{                 //for negative numbers
+    }else{                //for negative numbers
         for(i=-2;i>=n;i--){
             result=sum1-sum2;
             sum1=sum2;
